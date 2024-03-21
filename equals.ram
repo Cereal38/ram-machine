@@ -1,0 +1,8 @@
+jump r0 5
+dec r0
+dec r1
+jump r2 1
+jump r1 7
+stop
+inc r0
+stop
