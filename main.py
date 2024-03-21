@@ -3,7 +3,7 @@ import sys
 from lexical_analysis import lexical_analysis
 
 DEBUG = True
-NB_REGISTERS = 16
+NB_REGISTERS = 32
 used_registers = []
 
 
