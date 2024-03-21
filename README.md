@@ -20,7 +20,7 @@ Une machine RAM est constituée
 
 - De registres r0, r1, ..., rn contenant des entiers
 - D'une suite finie numérotée d'instructions de 5 types possibles:
-  - **copy ri rj**: copie la valeur de ri dans rj
+  - **copy ri rj**: copie la valeur de rj dans ri
   - **inc ri**: incrémente la valeur de ri
   - **dec ri**: décrémente la valeur de ri
   - **jump ri l**: saute à l'instruction à la ligne l si ri vaut 0

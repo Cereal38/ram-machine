@@ -1,0 +1,7 @@
+jump r0 5
+copy r0 r2
+inc r0
+stop
+jump r1 7
+copy r0 r1
+stop
