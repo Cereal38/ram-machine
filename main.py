@@ -76,6 +76,8 @@ def execute_program(program, registers_init: list = None):
                 instruction_pointer = jump_label
                 continue
         elif instruction.startswith("stop"):
+            if DEBUG:
+                print(f"stop: stopping program at line {instruction_pointer + 1}")
             break
 
         instruction_pointer += 1
